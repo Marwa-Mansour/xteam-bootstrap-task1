@@ -1,0 +1,83 @@
+.logoB{
+    width: 70px;
+}
+
+.srch{
+    width: 300px;
+    margin-right: 10px;
+}
+
+.formy{
+    margin-left: 540px;
+}
+
+.color-nav{
+    background-color: rgba(73, 75, 104, 0.397);
+}
+
+.br-name{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: cursive;
+    color: blue;
+}
+.yel{
+    color: rgb(196, 196, 9);
+}
+.red{
+    color: red;
+}
+.sec1{
+    margin-top: 50px;
+    
+}
+
+.sec2{
+    margin-top: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgba(196, 144, 139, 0.322);
+    
+}
+
+.crd{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+footer{
+    background-color: slategrey;
+    padding-top: 50px;
+    color: rgb(223, 215, 215);
+}
+
+/* h6{
+    padding-bottom: 10px;
+    border-bottom: rgb(148, 11, 38) solid 2px;
+} */
+
+h6:after {
+    content: ""; /* This is necessary for the pseudo element to work. */ 
+    display: block; /* This will put the pseudo element on its own line. */
+    
+    width: 25%; /* Change this to whatever width you want. */
+    padding-top: 10px; /* This creates some space between the element and the border. */
+    border-bottom: 2px solid rgb(138, 26, 26); /* This creates the border. Replace black with whatever color you want. */
+}
+
+.ft-list li{
+    list-style: none;
+    
+}
+
+.ft-list a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+}
+
+.ft-list a:hover{
+    text-decoration: underline;
+    font-size: 20px;
+    color: blue;
+}
